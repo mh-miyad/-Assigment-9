@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .bg-btn {
+        background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    }
+    .bg-btn:hover{
+        background: linear-gradient(90deg, #919ff7 0%, #8d69f0 100%);
+        
+    }
+  }
