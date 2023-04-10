@@ -6,6 +6,10 @@ import CartComponent from '../Component/CartComponent'
 const Home = () => {
 
   const [ showMore , setShowMore] = useState(false)
+  const eventHandler = (id)=>{
+
+    alert(id)
+  }
   const toggleShowMore = () => {
     setShowMore(!showMore);
   };
@@ -21,8 +25,8 @@ const Home = () => {
    <div className='text-center'>
    <div className=' grid grid-cols-1 md:grid-cols-2 text-start'>
         
-        { visibleData.map((ele)=><CartComponent img={ele.company_logo} jobTitle={ele.job_title} location={ele.fulltime_or_parttime}
-        remote={ele.remote_or_onsite} salry={ele.salary} place={ele.location}/>)}
+        { visibleData.map((ele)=><CartComponent key={ele.id} img={ele.company_logo} jobTitle={ele.job_title} location={ele.fulltime_or_parttime}
+        remote={ele.remote_or_onsite} salry={ele.salary} place={ele.location} data={ele.id} eventHandler={eventHandler}/>)}
         </div>
         <button
           onClick={toggleShowMore}

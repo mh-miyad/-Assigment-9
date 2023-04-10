@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
+import data from './Data/jobs.json'
 import './index.css'
 import {
   createBrowserRouter,
@@ -11,6 +12,7 @@ import Blog from './Page/Blog';
 import Satistic from './Page/Satistic';
 import ErorrPage from './Page/ErorrPage';
 import AppliedJobs from './Page/AppliedJobs';
+import Details from './Page/Details';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,11 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "details/:detailsId",
+        element: <Details />,
+        loader:({params})=>  params.detailsId,
       },
       {
         path: "/applied-Jobs",

@@ -2,8 +2,9 @@ import React from 'react'
 import ButtonCom from './ButtonCom'
 import logo from '../assets/img/Location Icon.png'
 import { Button } from 'flowbite-react'
+import { Link } from 'react-router-dom'
 
-const CartComponent = ({jobTitle,img,location ,place ,salry,remote}) => {
+const CartComponent = ({jobTitle,img,location ,place ,salry,remote , data , eventHandler}) => {
   return (
     <div className='mx-5'>
          <div className='container mx-auto '>
@@ -21,7 +22,7 @@ const CartComponent = ({jobTitle,img,location ,place ,salry,remote}) => {
               <p> {place} </p>
               <p>  $ salary:{salry} </p>
             </div>
-            <Button className='bg-btn '> View Details </Button>       
+            <Button className='bg-btn ' onClick={()=>eventHandler(data)}> <Link to={`details/${data}`}>View Details</Link> </Button>       
                 </div>
 
 
