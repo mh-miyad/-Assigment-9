@@ -1,0 +1,187 @@
+[
+  {
+    "id": 1,
+    "company_logo": "https://i.ibb.co/nm14Wjc/google-1-1-1-1.png",
+    "job_title": "Web Developer",
+    "company_name": "Google LLC",
+    "remote_or_onsite": "Remote",
+    "location": "Any Location",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We are seeking a skilled web developer to join our team and help us build and maintain web applications for our clients.",
+    "job_responsibility": "Responsibilities include developing and testing code, collaborating with other team members, and staying up-to-date with the latest industry trends and technologies.",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in web development",
+    "contact_information": {
+      "phone": "555-1111",
+      "email": "jobs@techsolutions.com"
+    }
+  },
+  {
+    "id": 2,
+    "company_logo": "https://i.ibb.co/jrdWZ2x/tesla-9-1.png",
+    "job_title": "Product Manager",
+    "company_name": " Tesla .",
+    "remote_or_onsite": "Onsite",
+    "location": "Seattle",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$120,000 - $150,000",
+    "job_description": "We are seeking a Product Manager to join our team and help us develop and launch new products.",
+    "job_responsibility": "Responsibilities include conducting market research, developing product strategies, working with cross-functional teams, and managing the product development lifecycle.",
+    "educational_requirements": "Bachelor's degree in Business Administration, Marketing, or related field",
+    "experiences": "5+ years of experience in product management",
+    "contact_information": {
+      "phone": "555-1212",
+      "email": "jobs@innovativeproducts.com"
+    }
+  },
+  {
+    "id": 3,
+    "company_logo": "https://i.ibb.co/r4Vb0Nr/netflix-4-1.png",
+    "job_title": "Data Analyst",
+    "company_name": "Netflix",
+    "remote_or_onsite": "Onsite",
+    "location": "Boston",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$70,000 - $90,000",
+    "job_description": "We are seeking a Data Analyst to join our team and help us analyze and interpret data to inform business decisions.",
+    "job_responsibility": "Responsibilities include collecting and analyzing data, creating reports and visualizations, and identifying insights and trends.",
+    "educational_requirements": "Bachelor's degree in Mathematics, Statistics, Computer Science, or related field",
+    "experiences": "2+ years of experience in data analysis",
+    "contact_information": {
+      "phone": "555-1313",
+      "email": "jobs@insightanalytics.com"
+    }
+  },
+  {
+    "id": 4,
+    "company_logo": "https://i.ibb.co/74VwpBK/logo-4-removebg-preview.png",
+    "job_title": "Human Resources Manager",
+    "company_name": "Meta.",
+    "remote_or_onsite": "Onsite",
+    "location": "Los Angeles",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$90,000 - $110,000",
+    "job_description": "We are seeking a Human Resources Manager to join our teamand help us develop and implement HR policies and procedures.",
+    "job_responsibility": "Responsibilities include recruiting and hiring employees, managing employee relations, developing and implementing HR policies and procedures, and ensuring compliance with legal requirements.",
+    "educational_requirements": "Bachelor's degree in Human Resources, Business Administration, or related field",
+    "experiences": "5+ years of experience in HR management",
+    "contact_information": {
+      "phone": "555-1414",
+      "email": "jobs@peoplefirst.com"
+    }
+  },
+  {
+    "id": 5,
+    "company_logo": "https://i.ibb.co/JqgKNdb/logo-3-removebg-preview.png",
+    "job_title": "Graphic Designer",
+    "company_name": " Intel",
+    "remote_or_onsite": "Remote",
+    "location": "Any Location",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$40 - $60 per hour",
+    "job_description": "We are seeking a Graphic Designer to join our team and help us create visual designs for our clients.",
+    "job_responsibility": "Responsibilities include creating designs for print and digital media, collaborating with clients and team members, and staying up-to-date with design trends and technologies.",
+    "educational_requirements": "Bachelor's degree in Graphic Design, Fine Arts, or related field",
+    "experiences": "3+ years of experience in graphic design",
+    "contact_information": {
+      "phone": "555-1515",
+      "email": "jobs@creativesolutions.com"
+    }
+  },
+  {
+    "id": 6,
+    "company_logo": "https://i.ibb.co/V2wL4XR/logo-2-removebg-preview.png",
+    "job_title": "Sales Representative",
+    "company_name": "Microsoft.",
+    "remote_or_onsite": "Onsite",
+    "location": "New York City",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$60,000 - $80,000 plus commission",
+    "job_description": "We are seeking a Sales Representative to join our team and help us generate new business.",
+    "job_responsibility": "Responsibilities include prospecting and qualifying leads, conducting sales presentations, negotiating and closing deals, and building and maintaining relationships with clients.",
+    "educational_requirements": "Bachelor's degree in Business Administration, Marketing, or related field",
+    "experiences": "2+ years of experience in sales",
+    "contact_information": {
+      "phone": "555-1616",
+      "email": "jobs@globalsales.com"
+    }
+  },
+  {
+    "id": 7,
+    "company_logo": "https://i.ibb.co/F8h03s5/logo-1-removebg-preview.png",
+    "job_title": "Software Engineer",
+    "company_name": "Apple.",
+    "remote_or_onsite": "Remote",
+    "location": "Any Location",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$90,000 - $120,000",
+    "job_description": "We are seeking a Software Engineer to join our team and help us develop innovative software solutions.",
+    "job_responsibility": "Responsibilities include writing high-quality code, collaborating with team members, and contributing to the development of new products and features.",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "5+ years of experience in software engineering",
+    "contact_information": {
+        "phone": "555-1717",
+        "email": "jobs@techsolutions.com"
+    }
+},
+{
+    "id": 8,
+    "company_logo": "https://i.ibb.co/h9mz9fZ/logo-7-removebg-preview.png",
+    "job_title": "Marketing Manager",
+    "company_name": " Adobe",
+    "remote_or_onsite": "Onsite",
+    "location": "Los Angeles",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We are seeking a Marketing Manager to join our team and help us develop and execute marketing campaigns.",
+    "job_responsibility": "Responsibilities include developing and executing marketing campaigns, managing social media channels, and collaborating with team members.",
+    "educational_requirements": "Bachelor's degree in Marketing or related field",
+    "experiences": "5+ years of experience in marketing",
+    "contact_information": {
+        "phone": "555-1818",
+        "email": "jobs@buzzmarketing.com"
+    }
+},
+{
+    "id": 9,
+    "company_logo": "https://i.ibb.co/80qFdbx/logo-6-removebg-preview.png",
+    "job_title": "Customer Service Representative",
+    "company_name": " Daraz.",
+    "remote_or_onsite": "Onsite",
+    "location": "Chicago",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$40,000 - $50,000",
+    "job_description": "We are seeking a Customer Service Representative to join our team and help us provide excellent customer service.",
+    "job_responsibility": "Responsibilities include responding to customer inquiries, resolving customer issues, and maintaining customer records.",
+    "educational_requirements": "High school diploma or equivalent",
+    "experiences": "2+ years of experience in customer service",
+    "contact_information": {
+        "phone": "555-1919",
+        "email": "jobs@happycustomers.com"
+    }
+}, {
+    "id": 10,
+    "company_logo": "https://i.ibb.co/PgLcV36/logo-5-removebg-preview.png",
+    "job_title": "Graphic Designer",
+    "company_name": "Amazon.",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$35 - $45 per hour",
+    "job_description": "We are seeking a Graphic Designer to join our team and help us create visually stunning designs.",
+    "job_responsibility": "Responsibilities include creating designs for web and print, collaborating with team members, and presenting designs to clients.",
+    "educational_requirements": "Bachelor's degree in Graphic Design or related field",
+    "experiences": "2+ years of experience in graphic design",
+    "contact_information": {
+        "phone": "555-2121",
+        "email": "jobs@creativeminds.com"
+    }
+}
+]
+
+
+
+
+
+
