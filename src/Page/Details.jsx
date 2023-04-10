@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useLoaderData } from 'react-router-dom'
 import data from '../Data/jobs.json'
+import JobHeader from '../Component/JobHeader'
 
 const Details = () => {
 
@@ -16,6 +17,7 @@ const Details = () => {
 
     return (
         <div>
+            <JobHeader/>
             <div>
 
             </div>

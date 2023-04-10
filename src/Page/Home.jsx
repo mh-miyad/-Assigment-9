@@ -3,12 +3,13 @@ import Header from '../Component/Header'
 import CatagoryJob from '../Component/CatagoryJob'
 import CartComponent from '../Component/CartComponent'
  import data from '../Data/jobs.json'
+import { setToLocal } from '../Utiliries/Getdata'
 const Home = () => {
 
   const [ showMore , setShowMore] = useState(false)
   const eventHandler = (id)=>{
 
-    alert(id)
+     setToLocal(id)
   }
   const toggleShowMore = () => {
     setShowMore(!showMore);
