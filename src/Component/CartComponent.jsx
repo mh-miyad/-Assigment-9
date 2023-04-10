@@ -3,21 +3,23 @@ import ButtonCom from './ButtonCom'
 import logo from '../assets/img/Location Icon.png'
 import { Button } from 'flowbite-react'
 
-const CartComponent = () => {
+const CartComponent = ({jobTitle,img,location ,place ,salry,remote}) => {
   return (
     <div className='mx-5'>
          <div className='container mx-auto '>
            <div className='border p-5 my-5 space-y-3 rounded-lg shadow'>
-            <img src='https://i.ibb.co/nm14Wjc/google-1-1-1-1.png' alt="" />
-            <p>Technical Database Engineer</p>
-            <div className='flex justify-evenly'>
-              <ButtonCom/>
-              <ButtonCom/>
+           <div className='w-full'>
+           <img src={img} alt=""  className='h-12'/>
+           </div>
+            <p className='font-bold'>{jobTitle}</p>
+            <div className='flex justify-start gap-5'>
+              <ButtonCom location={location}/>
+              <ButtonCom location={remote}/>
             </div>
-            <div className='flex gap-'>
+            <div className='flex gap-3'>
               <img src={logo} alt="" className='w-5 h-5 sm:w-auto sm:h-auto' />
-              <p> Dhaka Bangladesh </p>
-              <p>  $ salary:100k-300k </p>
+              <p> {place} </p>
+              <p>  $ salary:{salry} </p>
             </div>
             <Button className='bg-btn '> View Details </Button>       
                 </div>

@@ -13,7 +13,8 @@ const Home = () => {
        <p className='text-center text-sm md:text-lg mb-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
     <div className=' grid grid-cols-1 md:grid-cols-2'>
         
-        { data.map((ele)=><CartComponent/>)}
+        { data.map((ele)=><CartComponent img={ele.company_logo} jobTitle={ele.job_title} location={ele.fulltime_or_parttime}
+        remote={ele.remote_or_onsite} salry={ele.salary} place={ele.location}/>)}
         </div>
   
     </div>
